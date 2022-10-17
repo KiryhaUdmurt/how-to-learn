@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="html" lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body class="body">
   <div class="page">
     <header class="header">
       <img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="логотип">
@@ -24,7 +24,7 @@
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-            <p class="two-columns__paragraph"><span class="span-accent">Вывод: </span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод: </span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </div>
@@ -40,7 +40,7 @@
           <li class="table__cell">
             <h3 class="table__heading">2.1 миллиарда</h3>
             <p class="table__text">Число нуждающихся в повышении квалификации</p>
-            <p class="table__text2">Всемирный Банк, 2017</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h3 class="table__heading">1000 терабайт</h3>
@@ -53,7 +53,7 @@
           <li class="table__cell">
             <h3 class="table__heading">420 миллионов</h3>
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-            <p class="table__text2">Всемирный Банк, 2017</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h3 class="table__heading">17–20 лет</h3>
@@ -119,32 +119,36 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" alt="синий треугольник" src="./images/kaufman-triangle.svg">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column_content_copyright">
-          <img class="logo__place_footer" src="./images/logo_place_footer.svg" alt="логотип подвал">
+          <img class="logo logo__place_footer" src="./images/logo_place_footer.svg" alt="логотип подвал">
           <p class="footer__author">&copy; Виктор Абанькин</p>
         </div>
         <div class="footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <a class="footer__column-links" href="#">Главная</a>
-          <a class="footer__column-links" href="#">Концепция</a>
-          <a class="footer__column-links" href="#">Наставники</a>
+          <div class="footer__column-links">
+            <a class="footer__column-links_link" href="#">Главная</a>
+            <a class="footer__column-links_link" href="#">Концепция</a>
+            <a class="footer__column-links_link" href="#">Наставники</a>
+          </div>
         </div>
         <div class="footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <a class="footer__column-links" href="#">
-            <img class="footer__social-icon" alt="Значок YouTube" src="./youtube-icon.svg">YouTube
-          </a>
-          <a class="footer__column-links" href="#">
-            <img class="footer__social-icon" alt="Значок ВКонтакте" src="./images/vk_color_white.svg">ВКонтакте
-          </a>
-          <a class="footer__column-links" href="#">
-            <img class="footer__social-icon" alt="Значок TikTok" src="./tiktok-icon.svg">TikTok
-          </a>
+          <div class="footer__column-links">
+            <a class="footer__column-links_link" href="#">
+              <img class="footer__social-icon" alt="Значок YouTube" src="./youtube-icon.svg">YouTube
+            </a>
+            <a class="footer__column-links_link" href="#">
+              <img class="footer__social-icon" alt="Значок ВКонтакте" src="./images/vk_color_white.svg">ВКонтакте
+            </a>
+            <a class="footer__column-links_link" href="#">
+              <img class="footer__social-icon" alt="Значок TikTok" src="./tiktok-icon.svg">TikTok
+            </a>
+          </div>
         </div>
       </div>
     </footer>
